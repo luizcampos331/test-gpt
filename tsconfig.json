@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "@container/*": [
+        "container/*"
+      ],
+      "@errors/*": [
+        "errors/*"
+      ],
+      "@infra/*": [
+        "infra/*"
+      ],
+      "@providers/*": [
+        "providers/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ]
+    },
+    "rootDirs": ["./src"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  }
+}
